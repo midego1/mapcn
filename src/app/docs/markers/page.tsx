@@ -40,8 +40,8 @@ export default function MarkersPage() {
 
       <DocsNote>
         <strong>Performance tip:</strong> <DocsCode>MapMarker</DocsCode> is
-        DOM-based and works best for a few dozen of markers. For larger
-        datasets, see the{" "}
+        DOM-based and works best for a few hundred markers. For larger datasets,
+        see the{" "}
         <DocsLink href="/docs/advanced-usage#example-markers-via-layers">
           GeoJSON layers example
         </DocsLink>{" "}
