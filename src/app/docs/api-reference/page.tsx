@@ -102,6 +102,11 @@ export default function ApiReferencePage() {
                 "Child components (markers, popups, controls, routes).",
             },
             {
+              name: "className",
+              type: "string",
+              description: "Additional CSS classes for the map container.",
+            },
+            {
               name: "theme",
               type: '"light" | "dark"',
               description:
@@ -118,6 +123,18 @@ export default function ApiReferencePage() {
               type: "ProjectionSpecification",
               description:
                 'Map projection type. Use { type: "globe" } for 3D globe view.',
+            },
+            {
+              name: "viewport",
+              type: "Partial<MapViewport>",
+              description:
+                "Controlled viewport state. When used with onViewportChange, enables controlled mode. Can also be used alone for initial viewport.",
+            },
+            {
+              name: "onViewportChange",
+              type: "(viewport: MapViewport) => void",
+              description:
+                "Callback fired continuously as the viewport changes (during pan, zoom, rotate). Can be used alone to observe changes, or with viewport prop to enable controlled mode.",
             },
           ]}
         />
@@ -569,7 +586,7 @@ export default function ApiReferencePage() {
             {
               name: "clusterColors",
               type: "[string, string, string]",
-              default: '["#51bbd6", "#f1f075", "#f28cb1"]',
+              default: '["#22c55e", "#eab308", "#ef4444"]',
               description:
                 "Colors for cluster circles: [small, medium, large] based on point count.",
             },
