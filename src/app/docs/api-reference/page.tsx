@@ -140,7 +140,7 @@ export default function ApiReferencePage() {
               name: "onViewportChange",
               type: "(viewport: MapViewport) => void",
               description:
-                "Callback fired continuously as the viewport changes (during pan, zoom, rotate). When used with viewport prop, enables controlled mode where viewport is driven by your state.",
+                "Callback fired continuously as the viewport changes (during pan, zoom, rotate). Can be used alone to observe changes, or with viewport prop to enable controlled mode.",
             },
           ]}
         />

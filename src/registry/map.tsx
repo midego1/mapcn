@@ -146,8 +146,8 @@ type MapProps = {
   viewport?: Partial<MapViewport>;
   /**
    * Callback fired continuously as the viewport changes (pan, zoom, rotate, pitch).
-   * When used with `viewport` prop, enables controlled mode.
-   * Receives the new viewport state to update your state.
+   * Can be used standalone to observe changes, or with `viewport` prop
+   * to enable controlled mode where the map viewport is driven by your state.
    */
   onViewportChange?: (viewport: MapViewport) => void;
 } & Omit<MapLibreGL.MapOptions, "container" | "style">;
