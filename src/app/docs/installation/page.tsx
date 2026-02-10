@@ -10,9 +10,7 @@ import { Metadata } from "next";
 import { Card } from "@/components/ui/card";
 import { Map, MapControls } from "@/registry/map";
 
-const siteUrl = process.env.NEXT_PUBLIC_SITE_URL ?? "site-url-here";
-
-const installCode = `npx shadcn@latest add ${siteUrl}/r/map.json`;
+const installCommand = "npx shadcn@latest add @mapcn/map";
 
 const usageCode = `import { Map, MapControls } from "@/components/ui/map";
 import { Card } from "@/components/ui/card";
@@ -60,7 +58,7 @@ export default function InstallationPage() {
 
       <DocsSection title="Installation">
         <p>Run the following command to add the map component:</p>
-        <CodeBlock code={installCode} language="bash" />
+        <CodeBlock code={installCommand} language="bash" />
         <p>
           This will install <DocsCode>maplibre-gl</DocsCode> and add the map
           component to your project.

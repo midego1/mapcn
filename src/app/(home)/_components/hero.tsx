@@ -5,8 +5,7 @@ import { Copy, Check, ArrowRight } from "lucide-react";
 import Link from "next/link";
 import { useState } from "react";
 
-const siteUrl = process.env.NEXT_PUBLIC_SITE_URL ?? "site-url-here";
-const installCommand = `npx shadcn@latest add ${siteUrl}/r/map.json`;
+const installCommand = "npx shadcn@latest add @mapcn/map";
 
 function CopyButton({ text }: { text: string }) {
   const [copied, setCopied] = useState(false);
@@ -58,7 +57,7 @@ export function Hero() {
           Built on MapLibre. Styled with Tailwind.
         </p>
 
-        <div className="mt-8 animate-fade-up delay-300 w-full max-w-xl">
+        <div className="mt-8 animate-fade-up delay-300 w-full max-w-lg">
           <div className="bg-card border border-border rounded-lg shadow-xs overflow-hidden">
             <div className="flex items-center gap-1.5 px-3 py-2 border-b border-border/50">
               <span className="size-2 rounded-full bg-foreground/20" />
