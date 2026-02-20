@@ -1,17 +1,27 @@
 <div align="center">
-  <img src="public/banner.png" alt="mapcn banner" />
-  <br>
-  <br>
+  <h1>mapcn</h1>
+  
   <p>
-    Free & open source map components. Zero config, one command setup.<br/>
-    Built on <a href="https://maplibre.org/">MapLibre GL</a>, styled with <a href="https://tailwindcss.com/">Tailwind</a>, works seamlessly with <a href="https://ui.shadcn.com/">shadcn/ui</a>.
+    Free & open source map components. Zero config, one command setup. Built on <a href="https://maplibre.org/">MapLibre GL</a>, styled with <a href="https://tailwindcss.com/">Tailwind</a>, works seamlessly with <a href="https://ui.shadcn.com/">shadcn/ui</a>.
   </p>
   
   <p>
     <a href="https://mapcn.dev/docs">Get Started</a> •
     <a href="https://mapcn.dev/docs/installation">Installation</a> •
-    <a href="https://mapcn.dev/docs/basic-map">Examples</a>
+    <a href="https://mapcn.dev/docs/basic-map">Components</a>
   </p>
+
+  <br />
+  
+  <a href="https://vercel.com/oss">
+    <img alt="Vercel OSS Program" src="https://vercel.com/oss/program-badge.svg" />
+  </a>
+  
+  <br />
+  <br />
+  
+  <img src="public/banner.png" alt="mapcn banner" />
+
 </div>
 
 ---
