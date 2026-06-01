@@ -108,7 +108,7 @@ function PageHeaderDescription({
   return (
     <p
       className={cn(
-        "text-muted-foreground animate-fade-up animate-stagger max-w-2xl leading-relaxed sm:text-lg sm:leading-relaxed md:text-xl md:leading-relaxed",
+        "text-foreground/80 animate-fade-up animate-stagger max-w-2xl leading-relaxed sm:text-lg sm:leading-relaxed md:text-xl md:leading-relaxed",
         align === "center" ? "text-center" : "text-left",
         className,
       )}

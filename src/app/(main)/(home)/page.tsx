@@ -22,10 +22,10 @@ export default function Page() {
           Built on MapLibre. Styled with Tailwind.
         </PageHeaderDescription>
         <PageActions>
-          <Button size="lg" asChild>
+          <Button asChild>
             <Link href="/docs">Get Started</Link>
           </Button>
-          <Button size="lg" variant="outline" asChild>
+          <Button variant="outline" asChild>
             <Link href="/docs/basic-map">View Components</Link>
           </Button>
         </PageActions>

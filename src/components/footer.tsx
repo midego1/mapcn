@@ -35,8 +35,8 @@ export function Footer({ className }: { className?: string }) {
   return (
     <footer className={cn("mt-30 border-t", className)}>
       <div className="container py-12 md:py-16">
-        <div className="grid grid-cols-2 gap-8 md:grid-cols-4">
-          <div className="col-span-2 md:col-span-1">
+        <div className="grid grid-cols-2 gap-8 md:grid-cols-5">
+          <div className="col-span-2 md:col-span-2">
             <Logo className="w-fit" />
             <p className="text-muted-foreground mt-2 max-w-xs text-sm leading-relaxed">
               Free & open-source, ready-to-use, customizable map components for
